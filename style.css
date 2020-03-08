@@ -254,6 +254,10 @@ li {
     flex: 1;
 }
 
+.about-details p:first-of-type {
+    padding-bottom: 1rem;
+}
+
 .social-media {
     margin-top: 5rem;
 }
@@ -353,6 +357,7 @@ li {
 .portfolio-description .cta {
     display: inline-block;
     margin-top: 2.5rem;
+    margin-right: 1rem;
     font-size: 1.5rem;
     text-transform: uppercase;
     color: #3883ff;
@@ -385,6 +390,14 @@ li {
     opacity: 0.3;
 }
 
+.timeline p {
+    padding-bottom: 1rem;
+}
+
+.timeline p:last-of-type {
+    padding-bottom: 0;
+}
+
 .timeline .date {
     border-bottom: 1px solid rgba(255, 255, 255, 0,1);
     margin-bottom: 1rem;
@@ -408,7 +421,7 @@ li {
 
 .timeline .date::before {
     content: attr(data-date);
-    left: -21rem;
+    left: -23rem;
     text-align: right;
     min-width: 12rem;
     font-size: 1.5rem;
