@@ -245,6 +245,12 @@ li {
     font-weight: 300;
 }
 
+/* Typewriter Cursor*/
+
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
+}
+
 .profile-img {
     flex: 1;
     margin-right: 5rem;
@@ -392,6 +398,7 @@ li {
 
 .timeline p {
     padding-bottom: 1rem;
+    font-size: 1.6rem;
 }
 
 .timeline p:last-of-type {
