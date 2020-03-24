@@ -656,3 +656,13 @@ input[type="submit"]:hover {
         right: 2rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .timeline ul {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
