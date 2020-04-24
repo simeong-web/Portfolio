@@ -59,7 +59,7 @@ class TypeWriter {
         const fullTxt = this.words[current];
 
         // Check if state isDeleting
-        if(this.isDeleting) {
+        if (this.isDeleting) {
             // Remove char
             this.txt = fullTxt.substring(0, this.txt.length - 1);
         } else {
@@ -83,7 +83,7 @@ class TypeWriter {
             typeSpeed = this.wait;
 
             this.isDeleting = true;
-        } else if(this.isDeleting && this.txt === '') {
+        } else if (this.isDeleting && this.txt === '') {
             this.isDeleting = false;
 
             // Move to next word
@@ -105,7 +105,7 @@ function init() {
     const txtElement = document.querySelector('.txt-type');
     const words = JSON.parse(txtElement.getAttribute('data-words'));
     const wait = txtElement.getAttribute('data-wait');
-    
+
     // Init typewriter script
     new TypeWriter(txtElement, words, wait);
 }
