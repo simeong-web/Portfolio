@@ -353,6 +353,11 @@ li {
     flex: 1;
 }
 
+.portfolio-description h1 {
+    margin-bottom: 1rem;
+    color: #f4cbb2;
+}
+
 .portfolio-description h6 {
     font-size: 3rem;
     font-weight: 300;
